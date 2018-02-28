@@ -11,7 +11,6 @@
 }
 ul li{
     list-style-type: none;
-    display: inline;
     padding: 5px;
 }
 .back {
@@ -48,7 +47,7 @@ margin-left: 32%;
 margin-top: 100px;
     padding: 20px;
     background-color: #f1f2f6;
-    width: 430px;
+    width: 250px;
 }
 img {
     height:100px ;
@@ -103,10 +102,22 @@ padding-left: 5px;}
 @media only screen and (max-width:660px) {
     form {margin-left: 10%;
         padding-left: 5px;}
+       
         }
         @media only screen and (max-width:510px) {
-            form {margin-left: 1%;
+            form {margin-left: 15%;
                 padding-left: 5px;}
                 }
+                @media only screen and (max-width:315px) {
+                    form {margin-left: 1%;
+                        padding-left: 5px;}
+                        }
+
+                @media only screen and (min-width:510px) {
+                ul li {display: inline;}
+                    form {
+                        width: 440px;
+                    }  
+                        }
 
 
